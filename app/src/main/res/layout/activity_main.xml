@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal_200"
+        >
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="num1"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/etNum1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="__"
+            android:textSize="30dp"
+            android:id="@+id/tvSign"
+            />
+
+        <EditText
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="num2"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/etNum2"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:id="@+id/tvAnswer"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal_200"
+        >
+        <Button
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnPlus"
+            android:text="+"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <Button
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnMinus"
+            android:text="-"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnMult"
+            android:text="*"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnDivide"
+            android:text="/"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal_200"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calc"
+            android:textSize="50sp"
+            android:id="@+id/btnCalc"
+            android:layout_marginLeft="3dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="50sp"
+            android:id="@+id/btnClear"
+            android:layout_marginLeft="3dp"
+            android:textColor="#D11414"
+
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
